@@ -1,0 +1,36 @@
+body{
+  background-color: darkslategrey;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darksalmon;
+}
+.menu{
+  height : 450px;
+  width: 550px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu input,button{
+  border:none;
+  height: 50px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: monospace;
+  padding-left: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
